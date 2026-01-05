@@ -29,11 +29,11 @@ const timeline = [
         year: "2025",
         title: "Junior Web Developer (Intern)",
         place: "BIG DATA AGENCY CO., LTD.",
-        desc: "ช่วยทีม Frontend ทำ UI Component ด้วย vue.js ฝึกใช้งาน Docker, Prisma, PostgreSQL",
+        desc: "ช่วยทีม Frontend ทำ UI Component ด้วย vue.js ฝึกใช้งาน Docker, Prisma, PostgreSQL, Laravel ในหลังบ้าน",
         icon: <Briefcase size={18} />
     },
     {
-        year: "2020 - 2024",
+        year: "2020 - 2026",
         title: "Computer Engineering Bachelor Degree",
         place: "RMUTL Tak University",
         desc: "ศึกษาเกี่ยวกับการเขียนโปรแกรม, HTML CSS, JavaScript, Git control และ Algorithms",

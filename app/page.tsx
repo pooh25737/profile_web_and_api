@@ -44,7 +44,7 @@ const HomePage = () => {
       scale: 0.9, 
       y: 30, // กดต่ำลงหน่อย
       boxShadow: '0 50px 100px -20px rgba(99, 102, 241, 0.3)',
-      transition: { type: "spring", stiffness: 120, damping: 15 } 
+      transition: { type: "spring"  as const, stiffness: 120, damping: 15 } 
     }
   };
 
@@ -61,7 +61,7 @@ const HomePage = () => {
       opacity: 1, 
       scale: 1, 
       y: 0, // เด้งขึ้นมาอยู่ตรงกลาง (ไม่ต้องหมุน rotateX ใดๆ ทั้งสิ้น!)
-      transition: { type: "spring", stiffness: 300, damping: 20, delay: 0.1 } 
+      transition: { type: "spring" as const, stiffness: 300, damping: 20, delay: 0.1 } 
     }
   };
 
