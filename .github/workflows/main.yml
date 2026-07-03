@@ -1,0 +1,17 @@
+name: Keep Supabase Awake
+
+on:
+  schedule:
+    # ยิงทุกวัน ตอนเที่ยงคืน UTC (ประมาณ 7 โมงเช้าเวลาไทย)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # เอาไว้กดรันเองมือได้
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping DB
+        run: |
+          # ใช้ curl ยิงตรงไปที่หน้าแดชบอร์ดหรือ API ของ Supabase ของคุณได้เลย
+          # เปลี่ยน URL ด้านล่างนี้ให้เป็นของโปรเจกต์คุณ (ตัวอย่าง: https://xxxx.supabase.co)
+          curl -I "https://legziqijhimwjzcvjdff.supabase.co"
